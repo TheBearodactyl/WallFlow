@@ -272,7 +272,7 @@ Auto wallpaper will almost never run at this time. It is dependent on many facto
     <string name="title">Title</string>
     <string name="required_one_subreddit">Atleast 1 subreddit is required</string>
     <string name="minutes">minutes</string>
-    <string name="frequency_min_val_error">Frequency cannot be less than 15 minutes</string>
+    <string name="frequency_min_val_error">Frequency cannot be less than a minute</string>
     <string name="success">Success</string>
     <string name="menu">Menu</string>
     <string name="search_filters">Search filters</string>

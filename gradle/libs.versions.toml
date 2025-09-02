@@ -2,7 +2,7 @@
 aboutLibraries = "11.1.4"
 accompanist = "0.35.0-alpha"
 acra = "5.11.3"
-androidGradlePlugin = "8.4.0"
+androidGradlePlugin = "8.3.0"
 androidToolsDesugar = "2.0.4"
 androidxActivity = "1.9.0"
 androidxBenchmark = "1.2.4"

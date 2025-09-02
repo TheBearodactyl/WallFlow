@@ -81,7 +81,7 @@ private fun validate(
 ): Boolean {
     val freq = textFieldValue.toDateTimePeriod(selectedChronoUnit)
     val minutes = freq.hours * 60 + freq.minutes
-    return minutes < 15
+    return minutes < 1
 }
 
 @OptIn(ExperimentalMaterial3Api::class)

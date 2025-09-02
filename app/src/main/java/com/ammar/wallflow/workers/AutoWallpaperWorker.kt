@@ -1070,7 +1070,7 @@ class AutoWallpaperWorker @AssistedInject constructor(
                 TimeUnit.MINUTES,
             ).apply {
                 // avoid immediate execution
-                setInitialDelay(max(minutes, 15), TimeUnit.MINUTES)
+                setInitialDelay(max(minutes, 1), TimeUnit.MINUTES)
                 setConstraints(constraints)
                 if (!constraints.requiresDeviceIdle()) {
                     // try to re-execute the worker when 'Retry' is returned
